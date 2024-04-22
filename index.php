@@ -62,7 +62,7 @@
                                         name="password"
                                         class="form-control mb-3">
                                 <select name="lang" id="lang" class="form-control py-2">
-                                    <option value="en">Engligh</option>
+                                    <option value="en">English</option>
                                     <option value="ar">عربي</option>
                                 </select>
                                 <input  type="submit"
