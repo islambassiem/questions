@@ -1,0 +1,16 @@
+php_value display_errors off
+php_value mbstring.http_input auto
+php_value date.timezone Asia/Riyadh
+
+IndexIgnore * # prevent directory listing
+
+Order deny,allow
+Allow from *
+    
+# ------------------------------------------
+# Rewrite so that php extentions are not shown
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
