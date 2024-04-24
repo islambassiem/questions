@@ -27,7 +27,7 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <h1 class="text-center title mt-3">Annual Celebration 2022 - 2023</h1>
+      <h1 class="text-center title mt-3">Annual Celebration 2023 - 2024</h1>
     </div>
   </div>
   <div class="row">
